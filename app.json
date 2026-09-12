@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "LeanMate",
+    "slug": "leanmate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#180725"
+    },
+    "ios": {
+      "bundleIdentifier": "com.leanmate.app",
+      "supportsTablet": true,
+      "userInterfaceStyle": "dark"
+    },
+    "android": {
+      "package": "com.leanmate.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#180725"
+      },
+      "userInterfaceStyle": "dark",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow LeanMate to choose a profile picture from your photo library."
+        }
+      ]
+    ],
+    "scheme": "leanmate",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "87c48ea3-7a1b-46f9-a772-3a0a2d87e9cd"
+      }
+    },
+    "owner": "usha701"
+  }
+}
