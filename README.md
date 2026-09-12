@@ -122,10 +122,4 @@ assets/           App icons and visual assets
 docs/             README media
 ```
 
-## Environment Notes
-
-Firebase values are read from `EXPO_PUBLIC_*` environment variables. The `.env` file is intentionally ignored and should not be committed.
-
-## License
-
-This project is currently private/proprietary. Add a license before distributing publicly.
+## Enjoy :3
